@@ -96,11 +96,11 @@ return(
 <div className="Dataprocessdiv">
 <div className="Topframe">
 <div className={menu.caridata} onClick={(e) => handleSearchclick(e)} >
-<Tabline text={"Caridata"} locx={"35 0 50 35"} activetab={activetab.caridata}
+<Tabline text={"Searchdata"} locx={"35 0 50 35"} activetab={activetab.caridata}
 activecolor={activecolor.caridatatxtcolor} />
 </div>
 <div  className={menu.isidata} onClick={(e) => handleInputclick(e)} >
-<Tabline text={"Isidata"}  locx={"35 0 50 35"}  activetab={activetab.isidata} 
+<Tabline text={"FillinData"}  locx={"35 0 50 35"}  activetab={activetab.isidata} 
 activecolor={activecolor.isidatatxtcolor}/>
 </div>
 <div  className={menu.updatedata} onClick={(e) => handleUpdateclick(e)} >
